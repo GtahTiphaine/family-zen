@@ -1,0 +1,27 @@
+h1{
+    color : greenyellow;
+    text-align: center;
+}
+
+h2{
+    color : green
+}
+
+p{
+    text-align: justify ;
+    width: 750px;
+    
+}
+header{
+    background:linear-gradient( 50deg, green, yellow);
+    height:150px;
+    top:100px;
+    left:0;
+    right:0;    
+}
+.conteneur {
+    width: 60%;
+    margin: 0 auto;
+}
+
+
