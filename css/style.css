@@ -1,27 +1,40 @@
-h1{
-    color : greenyellow;
+/*_____________________________________________ Police d'écriture_______________________________________*/
+
+@font-face {
+    font-family: 'papyrus';
+    src: url('../fonts/papyrus/font-map-papyrus.png') format('png'), url('../fonts/papyrus/font-map-unicode-papyrus.png') format('png'), url('../fonts/papyrus/PAPYRUS.ttf') format('truetype'), url('../fonts/papyrus/papyrus.png') format('png');
+}
+
+body,
+html {
+    font-family: 'papyrus'
+}
+
+
+
+h1 {
+    color: greenyellow;
     text-align: center;
 }
 
-h2{
-    color : green
+h2 {
+    color: green
 }
 
-p{
-    text-align: justify ;
+p {
+    text-align: justify;
     width: 750px;
-    
 }
-header{
-    background:linear-gradient( 50deg, green, yellow);
-    height:150px;
-    top:100px;
-    left:0;
-    right:0;    
+
+header {
+    background: linear-gradient( 50deg, green, yellow);
+    height: 150px;
+    top: 100px;
+    left: 0;
+    right: 0;
 }
+
 .conteneur {
     width: 60%;
     margin: 0 auto;
 }
-
-
