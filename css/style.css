@@ -10,7 +10,19 @@ html {
     font-family: 'papyrus'
 }
 
+/*__________________________________________Header_____________________________________________________*/
 
+li{
+    list-style-type: none;
+    display:inline-block;
+    padding-left: 20px;
+    margin-right: 20px;
+}
+
+ul{
+    display:inline-block;
+    
+}
 
 h1 {
     color: greenyellow;
@@ -18,12 +30,9 @@ h1 {
 }
 
 h2 {
-    color: green
-}
+    color: green;
+    text-align: center;
 
-p {
-    text-align: justify;
-    width: 750px;
 }
 
 header {
@@ -34,7 +43,23 @@ header {
     right: 0;
 }
 
-.conteneur {
-    width: 60%;
+/*____________________________________accueil_____________________________________________________________*/
+
+.presentation{
+    text-align: justify;
+    width:650px;
     margin: 0 auto;
+    
 }
+
+/*______________________________________bach,bush__________________________________________________________________*/
+
+p{
+    text-align: justify;
+    width:800px;
+    margin-right: 400px;
+    margin-left: 400px;
+    
+}
+   
+
