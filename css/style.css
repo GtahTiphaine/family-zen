@@ -5,61 +5,117 @@
     src: url('../fonts/papyrus/font-map-papyrus.png') format('png'), url('../fonts/papyrus/font-map-unicode-papyrus.png') format('png'), url('../fonts/papyrus/PAPYRUS.ttf') format('truetype'), url('../fonts/papyrus/papyrus.png') format('png');
 }
 
-body,
-html {
-    font-family: 'papyrus'
+html body {
+    font-family: 'papyrus';
+    margin: 0;
+    padding: 0;
 }
 
 /*__________________________________________Header_____________________________________________________*/
 
-li{
+header {
+    background-image: url('../pictures/background_header.png');
+    width: 100%;
+    height: 800px;
+}
+
+.principal {
+    /*bandeau*/
+    height: 137px;
+    background-image: linear-gradient(55deg, rgba(236, 242, 245, 0.54) 0%, rgba(140, 190, 94, 0.54) 59%, rgba(93, 140, 104, 0.54) 100%), linear-gradient(-94deg, #7ac16b 0%, #ffffff 86%, #ffffff 100%);
+    opacity: 0.85;
+}
+
+.menu {
+    /* container menu*/
+    width: 1071px;
+    margin: 0 auto;
+    display: flex;
+}
+
+img {
+    /*img header*/
+    display: inline-block;
+    margin: 0;
+}
+
+li {
+    /*link*/
     list-style-type: none;
-    display:inline-block;
+    display: inline-block;
     padding-left: 20px;
     margin-right: 20px;
 }
 
-ul{
-    display:inline-block;
-    
+a {
+    /*link*/
+    width: 77px;
+    height: 9px;
+    color: #1d4207;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 27px;
+    text-transform: uppercase;
+    line-height: 100px;
+}
+
+ul {
+    display: inline-block;
 }
 
 h1 {
-    color: greenyellow;
+    /* Style for "le bien autrement" */
+    width: 801px;
+    height: 121px;
+    color: #ffffff;
+    font-family: Papyrus;
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 270px;
+    margin: 0;
+    padding: 0;
     text-align: center;
 }
 
 h2 {
     color: green;
     text-align: center;
-
-}
-
-header {
-    background: linear-gradient( 50deg, green, yellow);
-    height: 150px;
-    top: 100px;
-    left: 0;
-    right: 0;
 }
 
 /*____________________________________accueil_____________________________________________________________*/
 
-.presentation{
+.presentation {
     text-align: justify;
-    width:650px;
+    width: 650px;
     margin: 0 auto;
-    
 }
 
 /*______________________________________bach,bush__________________________________________________________________*/
 
-p{
-    text-align: justify;
-    width:800px;
-    margin-right: 400px;
-    margin-left: 400px;
+/*______________________________________footer_____________________________________________________________________*/
+
+footer {
+    /*color footer*/
+    width: 100%;
+    height: 200px;
+    background-color: #161921;
 }
 
-   
+.footer {
+    /*size*/
+    width: 600px;
+    margin: 0 auto;
+}
 
+.footer p {
+    /*align*/
+    text-align: center;
+    color: white;
+}
+
+.footer img {
+    /*picture*/
+    width: 106px;
+    margin: 0 auto;
+}
