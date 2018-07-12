@@ -14,7 +14,8 @@ html body {
 /*__________________________________________Header_____________________________________________________*/
 
 header {
-    background-image: url('../pictures/background_header.png');
+    background-image: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url('../pictures/background_header.png');
+    background-color: #bae388;
     width: 100%;
     height: 800px;
 }
@@ -66,16 +67,19 @@ ul {
 
 h1 {
     /* Style for "le bien autrement" */
-    width: 801px;
-    height: 121px;
-    color: #ffffff;
     font-family: Papyrus;
-    font-size: 100px;
-    font-weight: 400;
-    line-height: 270px;
+    font-size: 140px;
+    font-weight: 500;
+    line-height: 300px;
     margin: 0;
     padding: 0;
     text-align: center;
+    color: white;
+}
+
+h1,
+span {
+    display: block;
 }
 
 h2 {
@@ -85,7 +89,11 @@ h2 {
 
 /*____________________________________accueil_____________________________________________________________*/
 
-.presentation {
+.home,
+.bush,
+.fruitssecs,
+.oil,
+.cards {
     text-align: justify;
     width: 650px;
     margin: 0 auto;
@@ -104,14 +112,15 @@ footer {
 
 .footer {
     /*size*/
-    width: 600px;
     margin: 0 auto;
 }
 
-.footer p {
+.footer,
+.mentions {
     /*align*/
     text-align: center;
     color: white;
+    font-family: papyrus;
 }
 
 .footer img {
