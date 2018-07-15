@@ -93,7 +93,8 @@ h2 {
 .bush,
 .fruits,
 .oils,
-.cards {
+.cards,
+.mentions{
     text-align: justify;
     width: 650px;
     margin: 0 auto;
