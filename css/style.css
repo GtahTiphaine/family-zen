@@ -107,30 +107,21 @@ h2 {
 footer {
     background-color: rgba(35, 63, 41, 0.36);
     background-color: #161921;
-    display: grid;
-    grid-template-columns: repeat(3, 32%);
-    grid-gap: 10px;
-    grid-auto-rows: minmax(100px, auto);
 }
 
 .footer-left {
     /*centrage logo*/
     display: flex;
     flex: 1 100%;
-    margin: 5px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /*define grid*/
-    grid-column: 1;
-    grid-row: 1;
 }
 
 /**/
 
 .footer-left img {
     /*logo social*/
-    margin-left: 20px;
     width: 40px;
     height: 40px;
 }
@@ -148,8 +139,6 @@ footer {
 }
 
 .footer-middle {
-    grid-column: 2;
-    grid-row: 1;
     text-align: center;
 }
 
@@ -158,8 +147,6 @@ footer {
 }
 
 .footer-right {
-    grid-column: 3;
-    grid-row: 1;
     text-align: center;
     line-height: 180px;
 }
@@ -222,4 +209,18 @@ footer {
     }
 
 }
-
+.cube{
+    width: 100px;height: 100px;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+.pink{
+    background-color:pink;
+}
+.red{
+    background-color:red;
+}
