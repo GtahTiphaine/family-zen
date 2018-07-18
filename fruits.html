@@ -4,40 +4,48 @@
 <head>
     <meta charset="utf-8" />
     <title>Family Zen</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
     <!--barre de recherche-->
     <header>
-        <div class="principal">
-            <div class="menu">
+        <nav class="navbar navbar-expand-lg fixed-top principal">
+            <a class="navbar-brand mr-auto mr-lg-0" href="home.html">
                 <img src="pictures/zen-family.svg" />
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="home.html">Accueil</a>
-                        </li>
-                        <li>
-                            <a href="bachbush.html">Les Fleurs de Bach, Bush</a>
-                        </li>
-                        <li>
-                            <a href="essential_oils.html">Les Huiles essentielles</a>
-                        </li>
-                        <li>
-                            <a href="cards.html">Les Cartes</a>
-                        </li>
-                    </ul>
-                </nav>
+            </a>
+            <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-collapse offcanvas-collapse menu" id="navbarsExampleDefault">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="bachbush.html">Fleurs Bach,Bush</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="fruits.html">Les Fruits secs, graines</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="essential_oils.html">Les Huiles essentielles</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cards.html">Les Cartes</a>
+                    </li>
+                </ul>
             </div>
-        </div>
+        </nav>
+
         <div class="title">
-            <h1>Le Bien Etre Autrement</h1>
+            <h1>Le Bien Etre
+                <span> Autrement </span>
+            </h1>
         </div>
 
     </header>
 
-    <main class="fruits">
+    <main class="fruits container">
 
         <h2>Fruits secs, graines</h2>
         <p>Tout le monde connaît les fruits secs et leurs bienfaits. Ici on en consomme en grande quantité :
@@ -85,38 +93,49 @@
         </ul>
     </main>
     <footer>
-        <div class="footer-left">
-            <div class="logo-zen">
-                <img class="zen" src="pictures/zen-family.svg" alt="zen family logo">
+        <div class="footer container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-xl-4 col-lg-4 footer-left">
+                    <div class="logo-zen">
+                        <img class="zen" src="pictures/zen-family.svg" alt="zen family logo">
+                    </div>
+                    <!--/-logo-->
+                    <div class="social">
+                        <a href=" https://www.facebook.com/Zen-Family-201083777255945/" target="_blank">
+                            <img src="pictures/facebook-logo-button.svg" alt="facebook link">
+                        </a>
+
+                        <a href="https://www.instagram.com/zenfamilyfr/" target="_blank">
+                            <img src="pictures/instagram-logo.svg" alt="instagram link" />
+                        </a>
+                        <a href="https://twitter.com/ZenFamily2" target="_blank">
+                            <img src="pictures/twitter-circular-button.svg" alt="twitter link" />
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-xl-4 col-lg-4 footer-middle">
+                    <p> © 2018 -
+                        <span class="zenfamily">ZENFAMILY</span>
+
+                        Tous droits réservés
+                    </p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-xl-4 col-lg-4 footer-right">
+                    <p>
+                        <a class="Mentions legales" href="mentions_legales.html"> Mentions légales </a>
+                    </p>
+                </div>
             </div>
-            <!--/-logo-->
-            <div class="social">
-                <a href=" https://www.facebook.com/Zen-Family-201083777255945/" target="_blank">
-                    <img src="pictures/facebook-logo-button.svg" alt="facebook link">
-                </a>
-
-                <a href="https://www.instagram.com/zenfamilyfr/" target="_blank">
-                    <img src="pictures/instagram-logo.svg" alt="instagram link" />
-                </a>
-                <a href="https://twitter.com/ZenFamily2" target="_blank">
-                    <img src="pictures/twitter-circular-button.svg" alt="twitter link" />
-                </a>
-            </div>
         </div>
-        <div class="footer-middle">
-            <p> © 2018 -
-                <span class="zenfamily">ZENFAMILY</span>
-
-                Tous droits réservés
-            </p>
-        </div>
-        <div class="footer-right">
-            <p>
-                <a class="mentions" href="mentions_legales.html"> Mentions légales </a>
-            </p>
-        </div>
-
     </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+
+
+    
 </body>
 
 </html>
