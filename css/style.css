@@ -25,9 +25,16 @@ header {
     /*bandeau*/
     height: 150px;
     background-image: linear-gradient(55deg, rgba(236, 242, 245, 0.54) 0%, rgba(140, 190, 94, 0.54) 59%, rgba(93, 140, 104, 0.54) 100%), linear-gradient(-94deg, #7ac16b 0%, #ffffff 86%, #ffffff 100%);
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+a {
+    color: black;
+}
 
 img {
     /*img header*/
@@ -35,33 +42,26 @@ img {
     margin: 0;
 }
 
-
 .principal .menu li {
-
-/*link*/
+    /*link*/
     list-style-type: none;
     display: block;
-    padding-left: 70px;
-
 }
 
 .principal nav ul li a {
-   /* height: 9px;*/
-    color: #1d4207;
+    /* height: 9px;*/
+    color: #080808;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 13px;
+    font-size: 10px;
     font-weight: 400;
     line-height: 27px;
     text-transform: uppercase;
-
+    font-family: papyrus;
 }
 
 ul {
     display: inline-block;
-
 }
-
-
 
 h1 {
     /* Style for "le bien ê autrement" */
@@ -76,24 +76,26 @@ h1,
 span {
     display: block;
 }
+
 /*_______________________________________BODY____________________________________________________________________*/
+
 .home p,
 .bach p,
 .fruits p,
 .oils p,
 .cards p,
 .mentions p,
-{
+    {
     text-align: justify;
 }
 
 h2 {
     color: green;
     text-align: center;
+    font-weight: large;
 }
 
 /*____________________________________HOME  _____________________________________________________________________*/
-
 
 /*______________________________________FOOTER_____________________________________________________________________*/
 
@@ -110,9 +112,11 @@ footer {
     justify-content: center;
     align-items: center;
 }
-.navbar-toggler{
+
+.navbar-toggler {
     color: #161921;
 }
+
 /**/
 
 .footer-left img {
@@ -183,7 +187,8 @@ footer {
     .principal .menu nav ul {
         line-height: 100px;
     }
-    .principal .menu li {/*link*/
+    .principal .menu li {
+        /*link*/
         padding-left: 70px;
         display: inline-block;
     }
@@ -200,4 +205,3 @@ footer {
         font-size: 20px;
     }
 }
-
