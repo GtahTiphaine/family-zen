@@ -33,6 +33,7 @@ header {
 }
 
 a {
+    text-align: center;
     color: black;
 }
 
@@ -79,16 +80,20 @@ span {
 
 /*_______________________________________BODY____________________________________________________________________*/
 
-.home p,
-.bach p,
-.fruits p,
-.oils p,
-.cards p,
-.mentions p,
+.home,
+.bush,
+.fruits,
+.oils,
+.cards,
+.mentions
     {
     text-align: justify;
+    margin-top: 15px;
 }
 
+.fruits{
+    text-align: center;
+}
 h2 {
     color: green;
     text-align: center;
