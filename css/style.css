@@ -1,4 +1,4 @@
-/*_____________________________________________ Police d'écriture_______________________________________*/
+/*_____________________________________________________________________FONT_______________________________________________________________________________________________*/
 
 @font-face {
     font-family: 'papyrus';
@@ -12,7 +12,8 @@ html body {
     padding: 0;
 }
 
-/*__________________________________________Header_____________________________________________________*/
+
+/*__________________________________________________________________________HEADER________________________________________________________________________________________*/
 
 header {
     background-image: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url('../pictures/background_header.png');
@@ -78,97 +79,39 @@ span {
     display: block;
 }
 
-/*_______________________________________BODY____________________________________________________________________*/
+
+/*_______________________________________________________________________________BODY_____________________________________________________________________________________*/
 
 .home,
 .bush,
 .fruits,
 .oils,
 .cards,
-.mentions
-    {
+.mentions {
     text-align: justify;
     margin-top: 15px;
 }
 
-.fruits{
-    text-align: center;
+p {
+    line-height: 40px;
 }
+
 h2 {
     color: green;
     text-align: center;
-    font-weight: large;
 }
 
-/*____________________________________HOME  _____________________________________________________________________*/
-
-/*______________________________________FOOTER_____________________________________________________________________*/
-
-footer {
-    background-color: rgba(35, 63, 41, 0.36);
-    background-color: #161921;
-}
-
-.footer-left {
-    /*centrage logo*/
-    display: flex;
-    flex: 1 100%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.navbar-toggler {
-    color: #161921;
-}
-
-/**/
-
-.footer-left img {
-    /*logo social*/
-    width: 40px;
-    height: 40px;
-}
-
-.zen {
-    /* Import 25*25*/
-    width: 100px !important;
-    height: 100px !important;
-    margin: 0 auto;
-}
-
-.logo-zen,
-.social {
-    display: block;
-}
-
-.footer-middle {
+h3 {
     text-align: center;
 }
 
-.zenfamily {
-    color: #ffeb3b;
+li,
+a {
+    color: green;
 }
 
-.footer-right {
-    text-align: center;
-    line-height: 180px;
-}
 
-.footer-right a {
-    text-decoration: none;
-    color: white;
-}
-
-.footer-right p {
-    font-size: 12px;
-}
-
-.footer-middle p {
-    color: white;
-    line-height: 59px;
-    font-size: 12px;
-}
+/*____________________________________________________________________________LEGAL NOTICE________________________________________________________________________________*/
 
 .mentions {
     font-family: papyrus;
@@ -183,12 +126,93 @@ footer {
     padding: 0;
 }
 
-/*____________________________________________________RESPONSIVE TABLETTE________________________________________________________*/
+.mentions ul li,
+.mentions ul li a,
+h3,
+p {
+    color: black;
+}
+
+h3 {
+    line-height: 70px;
+}
+
+
+/*_________________________________________________________________________________FOOTER__________________________________________________________________________________*/
+
+footer {
+    background-color: rgba(35, 63, 41, 0.36);
+    background-color: #161921;
+    font-family: papyrus;
+    font-size: 12px;
+}
+
+.footer-left {
+    /*centrage logo*/
+    display: flex;
+    flex: 1 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*.navbar-toggler {
+    color: #161921;
+}*/
+
+.footer-left img {
+    /*logo social*/
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+}
+
+.zen {
+    /* Import 25*25*/
+    width: 100px !important;
+    height: 100px !important;
+    margin: 0 auto;
+}
+
+.logo-zen,
+.social {
+    margin-top: 10px;
+    display: block;
+}
+
+.contact {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+.footer-middle p {
+    color: white;
+    line-height: 45px;
+    text-align: center;
+}
+
+.zenfamily {
+    color: #ffeb3b;
+}
+
+.footer-right {
+    text-align: center;
+    line-height: 40px;
+}
+
+.footer a {
+    color: white;
+}
+
+
+/*_____________________________________________________________________RESPONSIVE TABLETTE________________________________________________________________________________*/
 
 @media screen and (min-width: 1024px)
 /*LANDSCAPE FORMAT*/
 
-    {
+{
     .principal .menu nav ul {
         line-height: 100px;
     }
@@ -196,6 +220,12 @@ footer {
         /*link*/
         padding-left: 70px;
         display: inline-block;
+    }
+    /*p {
+        line-height: 50px;
+    }*/
+    .footer a {
+        font-size: 20px
     }
     .footer-left img {
         /*logo social*/
@@ -208,5 +238,6 @@ footer {
     }
     .footer-right p {
         font-size: 20px;
+        line-height: 149px;
     }
 }
