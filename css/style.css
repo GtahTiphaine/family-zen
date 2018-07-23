@@ -1,243 +1,239 @@
-/*_____________________________________________________________________FONT_______________________________________________________________________________________________*/
-
-@font-face {
-    font-family: 'papyrus';
-    src: url('../fonts/papyrus/font-map-papyrus.png') format('png'), url('../fonts/papyrus/font-map-unicode-papyrus.png') format('png'), url('../fonts/papyrus/PAPYRUS.ttf') format('truetype'), url('../fonts/papyrus/papyrus.png') format('png');
-}
-
-html body {
-    font-family: 'papyrus';
-    width: auto;
-    margin: 0;
-    padding: 0;
-}
-
-
-/*__________________________________________________________________________HEADER________________________________________________________________________________________*/
-
-header {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url('../pictures/background_header.png');
-    background-color: #bae388;
-    width: 100%;
-    height: 800px;
-}
-
-.principal {
-    /*bandeau*/
-    height: 150px;
-    background-image: linear-gradient(55deg, rgba(236, 242, 245, 0.54) 0%, rgba(140, 190, 94, 0.54) 59%, rgba(93, 140, 104, 0.54) 100%), linear-gradient(-94deg, #7ac16b 0%, #ffffff 86%, #ffffff 100%);
-    opacity: 0.9;
-}
-
-.navbar-light .navbar-nav .nav-link {
-    color: black;
-}
-
-a {
-    text-align: center;
-    color: black;
-}
-
-img {
-    /*img header*/
-    display: inline-block;
-    margin: 0;
-}
-
-.principal .menu li {
-    /*link*/
-    list-style-type: none;
-    display: block;
-}
-
-.principal nav ul li a {
-    /* height: 9px;*/
-    color: #080808;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
-    font-weight: 400;
-    line-height: 27px;
-    text-transform: uppercase;
-    font-family: papyrus;
-}
-
-ul {
-    display: inline-block;
-}
-
-h1 {
-    /* Style for "le bien ê autrement" */
-    font-family: Papyrus;
-    font-size: 100px;
-    line-height: 350px;
-    text-align: center;
-    color: white;
-}
-
-h1,
-span {
-    display: block;
-}
-
-
-/*_______________________________________________________________________________BODY_____________________________________________________________________________________*/
-
-.home,
-.bush,
-.fruits,
-.oils,
-.cards,
-.mentions {
-    text-align: justify;
-    margin-top: 15px;
-}
-
-p {
-    line-height: 40px;
-}
-
-h2 {
-    color: green;
-    text-align: center;
-}
-
-h3 {
-    text-align: center;
-}
-
-li,
-a {
-    color: green;
-}
-
-
-/*____________________________________________________________________________LEGAL NOTICE________________________________________________________________________________*/
-
-.mentions {
-    font-family: papyrus;
-}
-
-.mentions li {
-    display: block;
-}
-
-.mentions ul {
-    margin: 0;
-    padding: 0;
-}
-
-.mentions ul li,
-.mentions ul li a,
-h3,
-p {
-    color: black;
-}
-
-h3 {
-    line-height: 70px;
-}
-
-
-/*_________________________________________________________________________________FOOTER__________________________________________________________________________________*/
-
-footer {
-    background-color: rgba(35, 63, 41, 0.36);
-    background-color: #161921;
-    font-family: papyrus;
-    font-size: 12px;
-}
-
-.footer-left {
-    /*centrage logo*/
-    display: flex;
-    flex: 1 100%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-
-/*.navbar-toggler {
+        /*_____________________________________________________________________FONT_______________________________________________________________________________________________*/
+        
+        @font-face {
+            font-family: 'papyrus';
+            src: url('../fonts/papyrus/font-map-papyrus.png') format('png'), url('../fonts/papyrus/font-map-unicode-papyrus.png') format('png'), url('../fonts/papyrus/PAPYRUS.ttf') format('truetype'), url('../fonts/papyrus/papyrus.png') format('png');
+        }
+        
+        html body {
+            font-family: 'papyrus';
+            width: auto;
+            margin: 0;
+            padding: 0;
+        }
+        /*__________________________________________________________________________HEADER________________________________________________________________________________________*/
+        
+        header {
+            background-image: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url('../pictures/background_header.png');
+            background-color: #bae388;
+            width: 100%;
+            height: 800px;
+        }
+        
+        .principal {
+            /*bandeau*/
+            height: 150px;
+            background-image: linear-gradient(55deg, rgba(236, 242, 245, 0.54) 0%, rgba(140, 190, 94, 0.54) 59%, rgba(93, 140, 104, 0.54) 100%), linear-gradient(-94deg, #7ac16b 0%, #ffffff 86%, #ffffff 100%);
+            opacity: 0.9;
+        }
+        
+        .navbar-light .navbar-nav .nav-link {
+            color: black;
+        }
+        
+        a {
+            text-align: center;
+            color: black;
+        }
+        
+        img {
+            /*img header*/
+            display: inline-block;
+            margin: 0;
+        }
+        
+        .principal .menu li {
+            /*link*/
+            list-style-type: none;
+            display: block;
+        }
+        
+        .principal nav ul li a {
+            /* height: 9px;*/
+            color: #080808;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 27px;
+            text-transform: uppercase;
+            font-family: papyrus;
+        }
+        
+        ul {
+            display: inline-block;
+        }
+        
+        h1 {
+            /* Style for "le bien ê autrement" */
+            font-family: Papyrus;
+            font-size: 100px;
+            line-height: 350px;
+            text-align: center;
+            color: white;
+        }
+        
+        h1,
+        span {
+            display: block;
+        }
+        /*_______________________________________________________________________________BODY_____________________________________________________________________________________*/
+        
+        .home,
+        .bush,
+        .fruits,
+        .oils,
+        .cards,
+        .mentions {
+            text-align: justify;
+            margin-top: 15px;
+        }
+        
+        p {
+            line-height: 40px;
+            font-size: 20px;
+        }
+        
+        h2 {
+            color: green;
+            text-align: center;
+        }
+        
+        h3 {
+            text-align: center;
+        }
+        
+        li,
+        a {
+            color: green;
+        }
+        /*____________________________________________________________________________LEGAL NOTICE________________________________________________________________________________*/
+        
+        .mentions {
+            font-family: papyrus;
+        }
+        
+        .mentions li {
+            display: block;
+        }
+        
+        .mentions ul {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .mentions ul li,
+        .mentions ul li a,
+        h3,
+        p {
+            color: black;
+        }
+        
+        h3 {
+            line-height: 70px;
+        }
+        /*_________________________________________________________________________________FOOTER__________________________________________________________________________________*/
+        
+        footer {
+            background-color: rgba(35, 63, 41, 0.36);
+            background-color: #161921;
+            font-family: papyrus;
+            font-size: 40px;
+        }
+        
+        .footer-left {
+            /*centrage logo*/
+            display: flex;
+            flex: 1 100%;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        /*.navbar-toggler {
     color: #161921;
 }*/
-
-.footer-left img {
-    /*logo social*/
-    width: 40px;
-    height: 40px;
-    margin-left: 15px;
-}
-
-.zen {
-    /* Import 25*25*/
-    width: 100px !important;
-    height: 100px !important;
-    margin: 0 auto;
-}
-
-.logo-zen,
-.social {
-    margin-top: 10px;
-    display: block;
-}
-
-.contact {
-    text-align: center;
-    color: #ffffff;
-    margin-top: 10px;
-}
-
-.footer-middle p {
-    color: white;
-    line-height: 45px;
-    text-align: center;
-}
-
-.zenfamily {
-    color: #ffeb3b;
-}
-
-.footer-right {
-    text-align: center;
-    line-height: 40px;
-}
-
-.footer a {
-    color: white;
-}
-
-
-/*_____________________________________________________________________RESPONSIVE TABLETTE________________________________________________________________________________*/
-
-@media screen and (min-width: 1024px)
-/*LANDSCAPE FORMAT*/
-
-{
-    .principal .menu nav ul {
-        line-height: 100px;
-    }
-    .principal .menu li {
-        /*link*/
-        padding-left: 70px;
-        display: inline-block;
-    }
-    /*p {
-        line-height: 50px;
-    }*/
-    .footer a {
-        font-size: 20px
-    }
-    .footer-left img {
-        /*logo social*/
-        margin-left: 10px;
-        width: 25px;
-        height: 25px;
-    }
-    .footer-middle p {
-        font-size: 20px;
-    }
-    .footer-right p {
-        font-size: 20px;
-        line-height: 149px;
-    }
-}
+        
+        .footer-left img {
+            /*logo social*/
+            width: 40px;
+            height: 40px;
+            margin-left: 15px;
+        }
+        
+        .zen {
+            /* Import 25*25*/
+            width: 100px !important;
+            height: 100px !important;
+            margin: 0 auto;
+        }
+        
+        .logo-zen,
+        .social {
+            margin-top: 10px;
+            display: block;
+        }
+        
+        .contact {
+            text-align: center;
+            color: #ffffff;
+            margin-top: 10px;
+        }
+        
+        .footer-middle p {
+            color: white;
+            line-height: 45px;
+            text-align: center;
+        }
+        
+        .zenfamily {
+            color: #ffeb3b;
+        }
+        
+        .footer-right {
+            text-align: center;
+            line-height: 40px;
+        }
+        
+        .footer a {
+            color: white;
+        }
+        /*_____________________________________________________________________RESPONSIVE TABLETTE________________________________________________________________________________*/
+        
+        @media screen and (min-width: 1024px)
+        /*LANDSCAPE FORMAT*/
+        
+        {
+            .principal .menu nav ul {
+                line-height: 100px;
+            }
+            .principal .menu li {
+                /*link*/
+                padding-left: 70px;
+                display: inline-block;
+            }
+            .principal nav ul li a {
+                font-size: 10px;
+                font-weight: 400;
+                line-height: 27px;
+                text-transform: uppercase;
+                font-family: papyrus;
+            }
+            .footer {
+                font-size: 17px;
+            }
+            .footer a {
+                font-size: 20px
+            }
+            .footer-left img {
+                /*logo social*/
+                margin-left: 10px;
+                width: 25px;
+                height: 25px;
+            }
+            .footer-middle p {
+                font-size: 20px;
+            }
+            .footer-right p {
+                font-size: 20px;
+                line-height: 149px;
+            }
+        }
