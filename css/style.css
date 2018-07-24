@@ -54,7 +54,7 @@
             font-family: Arial, Helvetica, sans-serif;
             font-size: 20px;
             font-weight: 400;
-            line-height: 27px;
+            line-height: 50px;
             text-transform: uppercase;
             font-family: papyrus;
         }
@@ -140,7 +140,7 @@
             background-color: #161921;
             font-family: papyrus;
             font-size: 40px;
-            line-height: 100px;
+            line-height: 70px;
         }
         
         .footer-left {
@@ -150,6 +150,7 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            margin-top: 10px;
         }
         
         .footer-left img {
@@ -175,13 +176,13 @@
         .contact {
             text-align: center;
             color: #ffffff;
-            margin-top: 10px;
         }
         
         .footer-middle p {
             color: white;
             line-height: 80px;
             text-align: center;
+            margin-top: 10px;
         }
         
         .zenfamily {
@@ -191,6 +192,7 @@
         .footer-right {
             text-align: center;
             line-height: 40px;
+            margin-top: 10px;
         }
         
         .footer a {
@@ -217,8 +219,11 @@
                 text-transform: uppercase;
             }
             p {
-                font-size: 25px;
-                line-height: 50px
+                font-size: 20px;
+                line-height: 40px
+            }
+            h2 {
+                font-size: 50px;
             }
             .footer {
                 font-size: 17px;
@@ -232,12 +237,15 @@
                 margin-left: 10px;
                 width: 25px;
                 height: 25px;
+                margin-top: 0;
+                line-height: 50px;
             }
             .footer-middle p {
                 font-size: 20px;
             }
             .footer-right p {
                 font-size: 20px;
-                line-height: 149px;
+                line-height: 150px;
+                margin-top: 70px;
             }
         }
